@@ -8,22 +8,86 @@
 
 /* Begin PBXBuildFile section */
 		B03506FD20F5833D00103B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03506FC20F5833D00103B5A /* AppDelegate.swift */; };
-		B03506FF20F5833D00103B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03506FE20F5833D00103B5A /* ViewController.swift */; };
+		B03506FF20F5833D00103B5A /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03506FE20F5833D00103B5A /* Favorites.swift */; };
 		B035070220F5833D00103B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B035070020F5833D00103B5A /* Main.storyboard */; };
 		B035070520F5833D00103B5A /* busTracker2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B035070320F5833D00103B5A /* busTracker2_0.xcdatamodeld */; };
 		B035070720F5833D00103B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B035070620F5833D00103B5A /* Assets.xcassets */; };
 		B035070A20F5833D00103B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B035070820F5833D00103B5A /* LaunchScreen.storyboard */; };
+		B035071220F58D7900103B5A /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035071120F58D7900103B5A /* BaseCollectionViewCell.swift */; };
+		B035071420F68DD100103B5A /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035071320F68DD100103B5A /* MenuBar.swift */; };
+		B035071620F6A28000103B5A /* OneStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035071520F6A28000103B5A /* OneStop.swift */; };
+		B035071920FBD5D800103B5A /* RouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035071820FBD5D800103B5A /* RouteCell.swift */; };
+		B035071D20FBDF2000103B5A /* RouteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035071C20FBDF2000103B5A /* RouteCollectionViewCell.swift */; };
+		B035072320FC17FB00103B5A /* StopTimesCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035072220FC17FB00103B5A /* StopTimesCollectionViewDelegate.swift */; };
+		B035072720FD0E4700103B5A /* tabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035072620FD0E4700103B5A /* tabBar.swift */; };
+		B035072A20FD117200103B5A /* SearchBusRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035072920FD117200103B5A /* SearchBusRoutes.swift */; };
+		B035072D20FD50AF00103B5A /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035072C20FD50AF00103B5A /* BaseTableCell.swift */; };
+		B035072F20FD50DB00103B5A /* RouteTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035072E20FD50DB00103B5A /* RouteTableCell.swift */; };
+		B035073120FD587F00103B5A /* SearchStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B035073020FD587F00103B5A /* SearchStops.swift */; };
+		B054408E2105285900A1AC08 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B054408D2105285900A1AC08 /* UIConstants.swift */; };
+		B05D05B321067F57001E5459 /* MapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05D05B221067F57001E5459 /* MapCollectionViewCell.swift */; };
+		B09B35D6210BA02100B2820B /* MapDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B35D5210BA02100B2820B /* MapDelegate.swift */; };
+		B09B35D8210BAE8700B2820B /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B35D7210BAE8700B2820B /* MapViewModel.swift */; };
+		B09B35DB210FC62B00B2820B /* CircleMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B35DA210FC62B00B2820B /* CircleMarker.swift */; };
+		B09DE0912118FFEC002B8D64 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE0902118FFEC002B8D64 /* Stop.swift */; };
+		B09DE09321190012002B8D64 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE09221190012002B8D64 /* Route.swift */; };
+		B09DE09521190024002B8D64 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE09421190024002B8D64 /* Direction.swift */; };
+		B09DE09721190038002B8D64 /* FavoriteStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE09621190038002B8D64 /* FavoriteStop.swift */; };
+		B09DE09921191A62002B8D64 /* FavoriteStopViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE09821191A62002B8D64 /* FavoriteStopViewModel.swift */; };
+		B09DE09C21192539002B8D64 /* RouteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09DE09B21192539002B8D64 /* RouteCellViewModel.swift */; };
+		B0B609BB20FE994700395A65 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609BA20FE994700395A65 /* SearchController.swift */; };
+		B0B609BF20FEA4D100395A65 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609BE20FEA4D100395A65 /* Structs.swift */; };
+		B0B609C220FEDD9D00395A65 /* NetworkingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609C120FEDD9D00395A65 /* NetworkingClient.swift */; };
+		B0B609C420FEE24C00395A65 /* NetworkParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609C320FEE24C00395A65 /* NetworkParameters.swift */; };
+		B0B609C720FEF95A00395A65 /* StopTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609C620FEF95A00395A65 /* StopTableCell.swift */; };
+		B0B609D620FFE55E00395A65 /* PredictionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609D520FFE55E00395A65 /* PredictionsViewModel.swift */; };
+		B0B609D820FFE59C00395A65 /* PredictionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609D720FFE59C00395A65 /* PredictionCellViewModel.swift */; };
+		B0B609DA20FFE6DB00395A65 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B609D920FFE6DB00395A65 /* GradientBackground.swift */; };
+		D2308C9410375978E331D517 /* Pods_busTracker2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8BB33C35F1A5E6A269A839 /* Pods_busTracker2_0.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F8208A12484E8E7975CACBE /* Pods-busTracker2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTracker2.0.release.xcconfig"; path = "Pods/Target Support Files/Pods-busTracker2.0/Pods-busTracker2.0.release.xcconfig"; sourceTree = "<group>"; };
 		B03506F920F5833D00103B5A /* busTracker2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = busTracker2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03506FC20F5833D00103B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B03506FE20F5833D00103B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B03506FE20F5833D00103B5A /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
 		B035070120F5833D00103B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B035070420F5833D00103B5A /* busTracker2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = busTracker2_0.xcdatamodel; sourceTree = "<group>"; };
 		B035070620F5833D00103B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B035070920F5833D00103B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B035070B20F5833D00103B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B035071120F58D7900103B5A /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		B035071320F68DD100103B5A /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		B035071520F6A28000103B5A /* OneStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneStop.swift; sourceTree = "<group>"; };
+		B035071820FBD5D800103B5A /* RouteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCell.swift; sourceTree = "<group>"; };
+		B035071C20FBDF2000103B5A /* RouteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCollectionViewCell.swift; sourceTree = "<group>"; };
+		B035072220FC17FB00103B5A /* StopTimesCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTimesCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		B035072620FD0E4700103B5A /* tabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = tabBar.swift; path = busTracker2.0/tabBar.swift; sourceTree = SOURCE_ROOT; };
+		B035072920FD117200103B5A /* SearchBusRoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusRoutes.swift; sourceTree = "<group>"; };
+		B035072C20FD50AF00103B5A /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
+		B035072E20FD50DB00103B5A /* RouteTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableCell.swift; sourceTree = "<group>"; };
+		B035073020FD587F00103B5A /* SearchStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStops.swift; sourceTree = "<group>"; };
+		B054408D2105285900A1AC08 /* UIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		B05D05B221067F57001E5459 /* MapCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapCollectionViewCell.swift; path = "/Users/jamieauza/Desktop/Xcode Projects/busTracker2.0/busTracker2.0/Individual Stop/Slider/Map/Views/MapCollectionViewCell.swift"; sourceTree = "<absolute>"; };
+		B09B35D5210BA02100B2820B /* MapDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDelegate.swift; sourceTree = "<group>"; };
+		B09B35D7210BAE8700B2820B /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		B09B35DA210FC62B00B2820B /* CircleMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMarker.swift; sourceTree = "<group>"; };
+		B09DE0902118FFEC002B8D64 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		B09DE09221190012002B8D64 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B09DE09421190024002B8D64 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		B09DE09621190038002B8D64 /* FavoriteStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStop.swift; sourceTree = "<group>"; };
+		B09DE09821191A62002B8D64 /* FavoriteStopViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStopViewModel.swift; sourceTree = "<group>"; };
+		B09DE09B21192539002B8D64 /* RouteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteCellViewModel.swift; sourceTree = "<group>"; };
+		B0B609BA20FE994700395A65 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		B0B609BE20FEA4D100395A65 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		B0B609C120FEDD9D00395A65 /* NetworkingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClient.swift; sourceTree = "<group>"; };
+		B0B609C320FEE24C00395A65 /* NetworkParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkParameters.swift; sourceTree = "<group>"; };
+		B0B609C620FEF95A00395A65 /* StopTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopTableCell.swift; sourceTree = "<group>"; };
+		B0B609D520FFE55E00395A65 /* PredictionsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PredictionsViewModel.swift; sourceTree = "<group>"; };
+		B0B609D720FFE59C00395A65 /* PredictionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionCellViewModel.swift; sourceTree = "<group>"; };
+		B0B609D920FFE6DB00395A65 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		B23FB4ADCA443E411098F497 /* Pods-busTracker2.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-busTracker2.0.debug.xcconfig"; path = "Pods/Target Support Files/Pods-busTracker2.0/Pods-busTracker2.0.debug.xcconfig"; sourceTree = "<group>"; };
+		DA8BB33C35F1A5E6A269A839 /* Pods_busTracker2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_busTracker2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +95,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2308C9410375978E331D517 /* Pods_busTracker2_0.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AC86555701AE5D9C7EEC42B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B23FB4ADCA443E411098F497 /* Pods-busTracker2.0.debug.xcconfig */,
+				0F8208A12484E8E7975CACBE /* Pods-busTracker2.0.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		370F681900D32650EADC829C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA8BB33C35F1A5E6A269A839 /* Pods_busTracker2_0.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B03506F020F5833D00103B5A = {
 			isa = PBXGroup;
 			children = (
 				B03506FB20F5833D00103B5A /* busTracker2.0 */,
 				B03506FA20F5833D00103B5A /* Products */,
+				2AC86555701AE5D9C7EEC42B /* Pods */,
+				370F681900D32650EADC829C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +140,189 @@
 		B03506FB20F5833D00103B5A /* busTracker2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				B03506FC20F5833D00103B5A /* AppDelegate.swift */,
-				B03506FE20F5833D00103B5A /* ViewController.swift */,
-				B035070020F5833D00103B5A /* Main.storyboard */,
-				B035070620F5833D00103B5A /* Assets.xcassets */,
-				B035070820F5833D00103B5A /* LaunchScreen.storyboard */,
 				B035070B20F5833D00103B5A /* Info.plist */,
-				B035070320F5833D00103B5A /* busTracker2_0.xcdatamodeld */,
+				B0B609BC20FEA44A00395A65 /* Supporting Files */,
+				B03506FC20F5833D00103B5A /* AppDelegate.swift */,
+				B035072620FD0E4700103B5A /* tabBar.swift */,
+				B035072820FD114200103B5A /* Search */,
+				B035071E20FBFC3B00103B5A /* Favorites */,
+				B035072420FC1DD100103B5A /* Individual Stop */,
+				B0B609BD20FEA48600395A65 /* Model */,
+				B035071720FBD5B200103B5A /* Views */,
+				B0B609C020FEDD7600395A65 /* Networking */,
 			);
 			path = busTracker2.0;
+			sourceTree = "<group>";
+		};
+		B035071720FBD5B200103B5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B035071820FBD5D800103B5A /* RouteCell.swift */,
+				B0B609D920FFE6DB00395A65 /* GradientBackground.swift */,
+				B035071120F58D7900103B5A /* BaseCollectionViewCell.swift */,
+				B054408D2105285900A1AC08 /* UIConstants.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B035071E20FBFC3B00103B5A /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				B03506FE20F5833D00103B5A /* Favorites.swift */,
+				B09DE09A21192524002B8D64 /* View Model */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		B035072420FC1DD100103B5A /* Individual Stop */ = {
+			isa = PBXGroup;
+			children = (
+				B035071520F6A28000103B5A /* OneStop.swift */,
+				B0B609CF20FFDF9E00395A65 /* Views */,
+				B0B609CD20FFDF3D00395A65 /* Slider */,
+			);
+			path = "Individual Stop";
+			sourceTree = "<group>";
+		};
+		B035072820FD114200103B5A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B035072920FD117200103B5A /* SearchBusRoutes.swift */,
+				B035073020FD587F00103B5A /* SearchStops.swift */,
+				B035072B20FD509C00103B5A /* Views */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		B035072B20FD509C00103B5A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B035072C20FD50AF00103B5A /* BaseTableCell.swift */,
+				B035072E20FD50DB00103B5A /* RouteTableCell.swift */,
+				B0B609BA20FE994700395A65 /* SearchController.swift */,
+				B0B609C620FEF95A00395A65 /* StopTableCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B05D05B121067F30001E5459 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B05D05B221067F57001E5459 /* MapCollectionViewCell.swift */,
+				B09B35DA210FC62B00B2820B /* CircleMarker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B09B35D9210BAE8B00B2820B /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B09B35D7210BAE8700B2820B /* MapViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B09DE09A21192524002B8D64 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B09DE09821191A62002B8D64 /* FavoriteStopViewModel.swift */,
+				B09DE09B21192539002B8D64 /* RouteCellViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		B0B609BC20FEA44A00395A65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B035070620F5833D00103B5A /* Assets.xcassets */,
+				B035070320F5833D00103B5A /* busTracker2_0.xcdatamodeld */,
+				B035070820F5833D00103B5A /* LaunchScreen.storyboard */,
+				B035070020F5833D00103B5A /* Main.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0B609BD20FEA48600395A65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B609BE20FEA4D100395A65 /* Structs.swift */,
+				B09DE0902118FFEC002B8D64 /* Stop.swift */,
+				B09DE09221190012002B8D64 /* Route.swift */,
+				B09DE09421190024002B8D64 /* Direction.swift */,
+				B09DE09621190038002B8D64 /* FavoriteStop.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0B609C020FEDD7600395A65 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B0B609C120FEDD9D00395A65 /* NetworkingClient.swift */,
+				B0B609C520FEE25300395A65 /* Model */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B0B609C520FEE25300395A65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B609C320FEE24C00395A65 /* NetworkParameters.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0B609CD20FFDF3D00395A65 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				B0B609D120FFE0D500395A65 /* Map */,
+				B0B609CE20FFDF7E00395A65 /* PredictedTimes */,
+				B0B609D420FFE4F600395A65 /* View Model */,
+			);
+			path = Slider;
+			sourceTree = "<group>";
+		};
+		B0B609CE20FFDF7E00395A65 /* PredictedTimes */ = {
+			isa = PBXGroup;
+			children = (
+				B035072220FC17FB00103B5A /* StopTimesCollectionViewDelegate.swift */,
+				B0B609D020FFDFB000395A65 /* Views */,
+			);
+			path = PredictedTimes;
+			sourceTree = "<group>";
+		};
+		B0B609CF20FFDF9E00395A65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B035071320F68DD100103B5A /* MenuBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0B609D020FFDFB000395A65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B035071C20FBDF2000103B5A /* RouteCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0B609D120FFE0D500395A65 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B09B35D5210BA02100B2820B /* MapDelegate.swift */,
+				B09B35D9210BAE8B00B2820B /* View Model */,
+				B05D05B121067F30001E5459 /* Views */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B0B609D420FFE4F600395A65 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B609D520FFE55E00395A65 /* PredictionsViewModel.swift */,
+				B0B609D720FFE59C00395A65 /* PredictionCellViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +332,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B035070E20F5833D00103B5A /* Build configuration list for PBXNativeTarget "busTracker2.0" */;
 			buildPhases = (
+				B9D466D7BB30B3F9490B1B04 /* [CP] Check Pods Manifest.lock */,
 				B03506F520F5833D00103B5A /* Sources */,
 				B03506F620F5833D00103B5A /* Frameworks */,
 				B03506F720F5833D00103B5A /* Resources */,
+				92B58D6953BB7ACAD69D1F2B /* [CP] Embed Pods Frameworks */,
+				34AC9651527B68F31C5568BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -94,7 +355,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Jamie Auza";
 				TargetAttributes = {
 					B03506F820F5833D00103B5A = {
@@ -134,14 +395,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34AC9651527B68F31C5568BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-busTracker2.0/Pods-busTracker2.0-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTracker2.0/Pods-busTracker2.0-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92B58D6953BB7ACAD69D1F2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-busTracker2.0/Pods-busTracker2.0-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9D466D7BB30B3F9490B1B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-busTracker2.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B03506F520F5833D00103B5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B03506FF20F5833D00103B5A /* ViewController.swift in Sources */,
+				B0B609BF20FEA4D100395A65 /* Structs.swift in Sources */,
+				B0B609DA20FFE6DB00395A65 /* GradientBackground.swift in Sources */,
+				B054408E2105285900A1AC08 /* UIConstants.swift in Sources */,
+				B035072A20FD117200103B5A /* SearchBusRoutes.swift in Sources */,
+				B09DE09321190012002B8D64 /* Route.swift in Sources */,
+				B03506FF20F5833D00103B5A /* Favorites.swift in Sources */,
+				B09B35DB210FC62B00B2820B /* CircleMarker.swift in Sources */,
+				B035071D20FBDF2000103B5A /* RouteCollectionViewCell.swift in Sources */,
+				B09DE09921191A62002B8D64 /* FavoriteStopViewModel.swift in Sources */,
+				B09DE0912118FFEC002B8D64 /* Stop.swift in Sources */,
+				B035071220F58D7900103B5A /* BaseCollectionViewCell.swift in Sources */,
+				B035072720FD0E4700103B5A /* tabBar.swift in Sources */,
+				B035072D20FD50AF00103B5A /* BaseTableCell.swift in Sources */,
+				B0B609D820FFE59C00395A65 /* PredictionCellViewModel.swift in Sources */,
+				B035072F20FD50DB00103B5A /* RouteTableCell.swift in Sources */,
+				B0B609D620FFE55E00395A65 /* PredictionsViewModel.swift in Sources */,
+				B0B609C220FEDD9D00395A65 /* NetworkingClient.swift in Sources */,
 				B03506FD20F5833D00103B5A /* AppDelegate.swift in Sources */,
+				B0B609C420FEE24C00395A65 /* NetworkParameters.swift in Sources */,
+				B05D05B321067F57001E5459 /* MapCollectionViewCell.swift in Sources */,
+				B0B609C720FEF95A00395A65 /* StopTableCell.swift in Sources */,
+				B09B35D8210BAE8700B2820B /* MapViewModel.swift in Sources */,
+				B0B609BB20FE994700395A65 /* SearchController.swift in Sources */,
+				B09B35D6210BA02100B2820B /* MapDelegate.swift in Sources */,
+				B09DE09C21192539002B8D64 /* RouteCellViewModel.swift in Sources */,
+				B09DE09521190024002B8D64 /* Direction.swift in Sources */,
 				B035070520F5833D00103B5A /* busTracker2_0.xcdatamodeld in Sources */,
+				B035073120FD587F00103B5A /* SearchStops.swift in Sources */,
+				B035071420F68DD100103B5A /* MenuBar.swift in Sources */,
+				B035071620F6A28000103B5A /* OneStop.swift in Sources */,
+				B09DE09721190038002B8D64 /* FavoriteStop.swift in Sources */,
+				B035072320FC17FB00103B5A /* StopTimesCollectionViewDelegate.swift in Sources */,
+				B035071920FBD5D800103B5A /* RouteCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +528,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -188,6 +536,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -238,6 +587,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -245,6 +595,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -276,11 +627,13 @@
 		};
 		B035070F20F5833D00103B5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B23FB4ADCA443E411098F497 /* Pods-busTracker2.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUBB8S5NDD;
 				INFOPLIST_FILE = busTracker2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JamieA.busTracker2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,11 +644,13 @@
 		};
 		B035071020F5833D00103B5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F8208A12484E8E7975CACBE /* Pods-busTracker2.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RUBB8S5NDD;
 				INFOPLIST_FILE = busTracker2.0/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JamieA.busTracker2-0";
 				PRODUCT_NAME = "$(TARGET_NAME)";

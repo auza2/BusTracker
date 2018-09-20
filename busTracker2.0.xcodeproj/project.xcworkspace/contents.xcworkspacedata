@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:busTracker2.0.xcodeproj">
+      location = "group:/Users/jamieauza/Desktop/Xcode Projects/busTracker2.0/busTracker2.0/Individual Stop/Slider/Map/Views/MapCollectionViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/jamieauza/Desktop/Xcode Projects/busTracker2.0/busTracker2.0/Views/circleMarker.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
